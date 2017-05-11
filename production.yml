@@ -1,0 +1,8 @@
+bot:
+  image: registry.digitwalk.com/yobot:dist
+  ports:
+    - "3000"
+  environment:
+    - SLACK_TOKEN=xoxb-45319622309-4g0nY8I0UDiAZdXTieroPW2n
+    - NODE_ENV=production
+  restart: always
